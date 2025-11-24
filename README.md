@@ -8,6 +8,16 @@ This repository contains materials and assignments for the **GPU Computing** lec
 
 The goal of this assignment is to implement a parallel version of a basic linear algebra program using **CUDA**.
 
+## Assignment 2: Implementing a parallel **inclusive scan** (prefix sum) for an array of complex numbers based on the Kogge-Stone algorithm
+
+(see `fast_scan.cu` for implementation without optimiziation)
+
+Implementing the optimizations in the following order: (see `optimized_scan.cu`)
+1) Reducing Divergence
+2) Shared Memory Utilization
+3) Thread Coarsening
+4) Memory Coalescing 
+
 ---
 
 ## How to run assignments
